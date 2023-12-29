@@ -16,7 +16,7 @@ def bissect(f, a, b, tol):
     return (a + b) / 2
 
 
-def binarysearch(seq, valor):
+def binarysearch(seq, valor):    # É este Lucas o que precisas !!!
     a = 0
     b = len(seq)-1
     resp = []
